@@ -1,0 +1,51 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    background-color: white;
+    width: 100%;
+    min-width: 100vh;
+    padding: 1px; /* 2nd layer box, what the background color uses*/
+    border: 2px solid black; /*border, size, type,color */
+    margin: 1px; /* space between this and adjacent boxes */
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+.centered {
+    height: 5vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.backcol {
+    background-color: blueviolet;
+}
+
+.image {
+    height: 150px;
+    width: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    align-items: right;
+}
+
